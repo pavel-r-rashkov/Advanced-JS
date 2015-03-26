@@ -1,0 +1,71 @@
+#list {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#list h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+}
+
+#list>div {
+    border: 2px solid #727272;
+    padding: 0px 10px 30px 10px;
+    margin-bottom: 10px;
+}
+
+#list .section {
+    border: 2px solid #424242;
+    padding: 10px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+#list .section h3 {
+    text-align: right;
+    margin: 0px;
+    font-size: 20px;
+}
+
+#list .item {
+    height: 30px;
+}
+
+#list .item label {
+    height: 24px;
+    padding-top: 5px;
+    margin: 0px;
+    margin-right: 5px;
+    display: inline-block;
+    width: 90%;
+    float: right;
+    border-bottom: 1px solid #727272;
+}
+
+#list .item input {
+    width: 16px;
+    height: 16px;
+    margin-top: 6px;
+}
+
+#list .item:last-child label{
+    border-bottom: none;
+}
+
+#list .itemTitleInput {
+    float: right;
+}
+
+#list .newItem {
+    float: right;
+    margin-left: 5px;
+}
+
+#list #sectionTitleInput {
+    margin-right: 5px;
+}
